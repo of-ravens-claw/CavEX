@@ -90,5 +90,3 @@ cd build_pc
 cmake ..
 make
 ```
-
-Please also copy the fragment and vertex shaders from `resources/` next to your `assets/` directory.

@@ -64,9 +64,12 @@ int main(void) {
 
 #ifdef PLATFORM_WII
 	fatInitDefault();
+	config_create(&gstate.config_user, "config_wii.json");
 #endif
 
-	config_create(&gstate.config_user, "config.json");
+#ifdef PLATFORM_PC
+	config_create(&gstate.config_user, "config_pc.json");
+#endif
 
 	input_init();
 	blocks_init();
