@@ -27,7 +27,7 @@
 
 #include "../../game/game_state.h"
 #include "../../graphics/texture_atlas.h"
-#include "../lodepng/lodepng.h"
+#include "lodepng/lodepng.h"
 #include "../../util.h"
 #include "../gfx.h"
 #include "../input.h"
