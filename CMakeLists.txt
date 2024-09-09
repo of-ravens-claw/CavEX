@@ -139,12 +139,13 @@ add_executable(cavex
 				source/config.c
 				source/particle.c
 
-				source/lodepng/lodepng.c
+				vendor/lodepng/lodepng.c
 
-				source/parson/parson.c
+				vendor/parson/parson.c
 			)
 
 target_compile_definitions(cavex PRIVATE PLATFORM_PC CGLM_ALL_UNALIGNED)
+target_include_directories(cavex PRIVATE vendor/mlib/include/)
 
 set_target_properties(
 	cavex PROPERTIES
