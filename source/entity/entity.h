@@ -23,7 +23,7 @@
 #include <m-lib/m-dict.h>
 #include <stdbool.h>
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 #include "../item/items.h"
 
 enum entity_type {

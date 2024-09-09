@@ -20,7 +20,7 @@
 #include <assert.h>
 #include <m-lib/m-string.h>
 
-#include "../cNBT/nbt.h"
+#include "cNBT/nbt.h"
 
 #include "region_archive.h"
 #include "server_world.h"

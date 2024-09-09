@@ -24,7 +24,7 @@
 #include "../item/window_container.h"
 #include "../world.h"
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 enum client_rpc_type {
 	CRPC_CHUNK,

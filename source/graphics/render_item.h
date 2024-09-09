@@ -20,7 +20,7 @@
 #ifndef RENDER_ITEM_H
 #define RENDER_ITEM_H
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 #include "../item/items.h"
 

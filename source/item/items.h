@@ -23,7 +23,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 struct item_data {
 	uint16_t id;

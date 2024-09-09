@@ -24,7 +24,7 @@
 #include "camera.h"
 #include "game_state.h"
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 // all vectors normalized
 static float plane_distance(vec3 n, vec3 p0, vec3 l0, vec3 l) {

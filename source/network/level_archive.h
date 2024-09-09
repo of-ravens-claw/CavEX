@@ -25,8 +25,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "../cNBT/nbt.h"
-#include "../cglm/cglm.h"
+#include "cNBT/nbt.h"
+#include "cglm/cglm.h"
 
 #include "../item/inventory.h"
 #include "../item/items.h"

@@ -26,7 +26,7 @@ BUILD		:=	build
 SOURCES		:=	source source/block source/entity source/graphics source/network source/game source/game/gui source/platform source/item source/item/items vendor/cNBT vendor/lodepng vendor/parson
 DATA		:=
 TEXTURES	:=	textures
-INCLUDES	:=  vendor/mlib/include
+INCLUDES	:=  vendor
 
 #---------------------------------------------------------------------------------
 # options for code generation

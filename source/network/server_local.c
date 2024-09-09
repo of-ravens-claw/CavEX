@@ -21,7 +21,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 #include "../item/window_container.h"
 #include "../platform/thread.h"

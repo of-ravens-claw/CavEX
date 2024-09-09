@@ -20,7 +20,7 @@
 #ifndef GFX_UTIL_H
 #define GFX_UTIL_H
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 #include "../world.h"
 

@@ -24,7 +24,7 @@
 #include "../config.h"
 #include "../game/game_state.h"
 #include "../graphics/gui_util.h"
-#include "../lodepng/lodepng.h"
+#include "lodepng/lodepng.h"
 #include "texture.h"
 
 struct tex_gfx texture_fog;

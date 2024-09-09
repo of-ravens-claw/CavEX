@@ -22,7 +22,7 @@
 
 #include <stdbool.h>
 
-#include "../../cglm/cglm.h"
+#include "../cglm/cglm.h"
 
 struct screen {
 	void (*reset)(struct screen* s, int width, int height);

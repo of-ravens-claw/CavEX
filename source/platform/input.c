@@ -19,7 +19,7 @@
 
 #include <assert.h>
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 #include "gfx.h"
 #include "input.h"
 

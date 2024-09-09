@@ -1,1 +1,0 @@
-Really annoying structure because the original maintainer expected you to put this in the compiler's include path, which I think is stupid.

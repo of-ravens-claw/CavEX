@@ -22,7 +22,7 @@
 
 #include <stdbool.h>
 
-#include "../cglm/cglm.h"
+#include "cglm/cglm.h"
 
 struct camera {
 	float x, y, z;
