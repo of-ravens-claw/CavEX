@@ -79,11 +79,11 @@ add_executable(cavex
 				source/entity/entity_local_player.c
 				source/entity/entity_item.c
 
-				source/cNBT/buffer.c
-				source/cNBT/nbt_loading.c
-				source/cNBT/nbt_parsing.c
-				source/cNBT/nbt_treeops.c
-				source/cNBT/nbt_util.c
+				vendor/cNBT/buffer.c
+				vendor/cNBT/nbt_loading.c
+				vendor/cNBT/nbt_parsing.c
+				vendor/cNBT/nbt_treeops.c
+				vendor/cNBT/nbt_util.c
 
 				source/game/gui/screen_ingame.c
 				source/game/gui/screen_load_world.c
